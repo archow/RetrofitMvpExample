@@ -14,4 +14,8 @@ class Repository {
         val apiService = retrofit.create(GithubApiService::class.java)
         return apiService.getGithubResponse(queryParameter, sortParameter)
     }
+
+    fun saveData() {
+        //this is where you'd update your sharedPreferences
+    }
 }

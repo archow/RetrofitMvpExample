@@ -8,6 +8,9 @@ interface MainViewPresenterContract {
     //those methods should be available to the view to call
     interface MainPresenter : BasePresenter {
         fun getUsersList(queryParameter: String, sortParameter: String)
+
+    //the following method will call its repository's saveData method
+    // fun saveData
     }
 
     interface MainView : BaseView {

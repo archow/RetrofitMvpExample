@@ -39,4 +39,9 @@ class MainPresenterImpl(val viewImpl: MainViewPresenterContract.MainView)
 
             })
     }
+
+    fun saveData() {
+        //here you'll have something like:
+        //repository.saveData
+    }
 }
